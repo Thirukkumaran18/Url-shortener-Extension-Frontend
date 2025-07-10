@@ -1,0 +1,29 @@
+{
+    "manifest_version" : 3, 
+    "name" : "URL shortener", 
+    "description" : "An URL shortner for chrome", 
+    "version" : "1.0", 
+    "action" : {
+        "default_popup" : "popup.html", 
+        "default_icon" : {
+            "16": "icons/url.png", 
+            "48":"icons/url.png", 
+            "128":"icons/url.png"
+        }
+    }, 
+    "permissions" : [
+        "tabs", 
+        "activeTab", 
+        "clipboardWrite", 
+        "storage"
+    ], 
+    "host_permissions": ["https://shorturl-8iru.onrender.com/*"], 
+    "icons" : {
+        "16": "icons/url.png",
+        "48": "icons/url.png",
+        "128": "icons/url.png"
+    }, 
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; connect-src 'self' https://shorturl-8iru.onrender.com"
+    }
+}
