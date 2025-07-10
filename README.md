@@ -25,3 +25,9 @@ A lightweight Chrome extension to shorten URLs of your current tab using a Node.
 ## 🌐 Live Backend
 Backend hosted at: https://shorturl-8iru.onrender.com
 
+## 📁 To use
+- Download **dist/** from the link
+https://drive.google.com/drive/folders/1z2Pam4cKq3oenBCGShyAqDmsosVfUx1h?usp=sharing
+- Enable developer option in your Chrome Extension page
+- Load this **dist/** by clicking Load unpacked 
+
